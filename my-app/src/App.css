@@ -1,0 +1,78 @@
+@import '~react-quill/dist/quill.snow.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.position-fixed {
+  position: fixed;
+}
+.left-menu-bar {
+  width: 10rem;
+  float: left;
+  height: 100vh;
+  background: #1d2327;
+}
+.left-menu-bar ul {
+  line-height: 3;
+  list-style: none;
+  padding-inline-start: 0;
+  padding-left: .5rem;
+}
+.left-menu-bar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.pl-1rem {
+  padding-left: 1rem;
+}
+.w-100 {
+  width: 100%;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.mb-0 {
+  margin-left: 0;
+}
+.main-column {
+  width: calc(100% - 10rem - 300px);
+  left: 10rem;
+  position: relative;
+  float: left;
+}
+.setting-block-area {
+  line-height: 3;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

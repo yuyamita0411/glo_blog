@@ -1,0 +1,23 @@
+/* App.css */
+.editor-content {
+  width: 95%;
+}
+.add-bar {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+  
+  .sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid gray;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
